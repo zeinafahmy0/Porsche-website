@@ -82,14 +82,14 @@ export default function Register() {
           <div className="mb-4">
             <label htmlFor="fullName" className={`form-label fw-semibold mb-2 ${styles.label}`}>Full Name</label>
             <div className={`input-group ${styles.field}`}>
-              <span className={`input-group-text ${styles.fieldIcon}`}>
-                <i className="bi bi-person"></i>
+              <span className="input-group-text bg-light border-end-0">
+                <i className={`fa-regular fa-user ${styles.icon}`}></i>
               </span>
               <input
                 id="fullName"
                 name="fullName"
                 type="text"
-                className={`form-control ${styles.input}`}
+                className={`form-control bg-light border-start-0 ${styles.input}`}
                 placeholder="Username"
                 value={formData.fullName}
                 onChange={handleChange}
@@ -100,14 +100,14 @@ export default function Register() {
           <div className="mb-4">
             <label htmlFor="registerEmail" className={`form-label fw-semibold mb-2 ${styles.label}`}>Email Address</label>
             <div className={`input-group ${styles.field}`}>
-              <span className={`input-group-text ${styles.fieldIcon}`}>
-                <i className="bi bi-envelope"></i>
+              <span className="input-group-text bg-light border-end-0">
+                <i className={`fa-regular fa-envelope ${styles.icon}`}></i>
               </span>
               <input
                 id="registerEmail"
                 name="email"
                 type="email"
-                className={`form-control ${styles.input}`}
+                className={`form-control bg-light border-start-0 ${styles.input}`}
                 placeholder="you@example.com"
                 value={formData.email}
                 onChange={handleChange}
@@ -122,14 +122,14 @@ export default function Register() {
           <div className="mb-4">
             <label htmlFor="registerPassword" className={`form-label fw-semibold mb-2 ${styles.label}`}>Password</label>
             <div className={`input-group ${styles.field}`}>
-              <span className={`input-group-text ${styles.fieldIcon}`}>
-                <i className="bi bi-lock"></i>
+              <span className="input-group-text bg-light border-end-0">
+                <i className={`fa-solid fa-lock ${styles.icon}`}></i>
               </span>
               <input
                 id="registerPassword"
                 name="password"
                 type="password"
-                className={`form-control ${styles.input}`}
+                className={`form-control bg-light border-start-0 ${styles.input}`}
                 placeholder="••••••••••••"
                 value={formData.password}
                 onChange={handleChange}
@@ -145,14 +145,14 @@ export default function Register() {
           <div className="mb-4">
             <label htmlFor="confirmPassword" className={`form-label fw-semibold mb-2 ${styles.label}`}>Confirm Password</label>
             <div className={`input-group ${styles.field}`}>
-              <span className={`input-group-text ${styles.fieldIcon}`}>
-                <i className="bi bi-lock"></i>
+              <span className="input-group-text bg-light border-end-0">
+                <i className={`fa-solid fa-lock ${styles.icon}`}></i>
               </span>
               <input
                 id="confirmPassword"
                 name="confirmPassword"
                 type="password"
-                className={`form-control ${styles.input}`}
+                className={`form-control bg-light border-start-0 ${styles.input}`}
                 placeholder="••••••••••••"
                 value={formData.confirmPassword}
                 onChange={handleChange}
