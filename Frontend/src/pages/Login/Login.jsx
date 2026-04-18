@@ -22,7 +22,7 @@ export default function Login() {
                   <label htmlFor="email" className={`form-label ${styles.label}`}>Email Address</label>
                   <div className={`input-group ${styles.inputGroup}`}>
                     <span className="input-group-text bg-light border-end-0">
-                      <i className={`bi bi-envelope ${styles.icon}`}></i>
+                      <i className={`fa-regular fa-envelope ${styles.icon}`}></i>
                     </span>
                     <input
                       id="email"
@@ -40,7 +40,7 @@ export default function Login() {
                   <label htmlFor="password" className={`form-label ${styles.label}`}>Password</label>
                   <div className={`input-group ${styles.inputGroup}`}>
                     <span className="input-group-text bg-light border-end-0">
-                      <i className={`bi bi-lock ${styles.icon}`}></i>
+                      <i className={`fa-solid fa-lock ${styles.icon}`}></i>
                     </span>
                     <input
                       id="password"

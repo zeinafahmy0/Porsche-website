@@ -1,5 +1,7 @@
 import React from "react";
 import Navbar from "../../components/Navbar/Navbar";
+import wallpaper from "../../assets/images/wallpaper-porsche.png";
+
 const About = () => {
   return (
     <div style={{ background: "#fff" }}>
@@ -8,7 +10,7 @@ const About = () => {
       {/* Hero Section */}
       <section className="position-relative" style={{ height: "60vh", background: "black" }}>
         <img
-          src="https://w0.peakpx.com/wallpaper/335/335/HD-wallpaper-porsche-porsche-911-carrera-porsche-911-car-red-car-sport-car.jpg"
+          src={wallpaper}
           alt="Porsche"
           className="w-100 h-100 position-absolute top-0 start-0"
           style={{ objectFit: "cover", opacity: 0.7 }}

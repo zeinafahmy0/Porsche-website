@@ -58,12 +58,14 @@
 }
 
 .input:focus {
-  background-color: #f8f9fa;
+  border-color: #dee2e6 !important;
+  border-left: 0 !important;
+  outline: none;
   box-shadow: none;
 }
 
 .icon {
-  color: #999;
+  color: #5D5D5D;
 }
 
 .button {
